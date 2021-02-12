@@ -1,0 +1,9 @@
+uuid: 6a7e548e-b10c-4237-b05b-837490f589a3
+langcode: pl
+status: true
+dependencies: {  }
+id: biblioteka
+label: Biblioteka
+weight: 3
+is_admin: null
+permissions: {  }

@@ -1,0 +1,9 @@
+uuid: 67db136c-6566-40b7-9f29-563b40629942
+langcode: pl
+status: true
+dependencies: {  }
+id: przedszkole
+label: Przedszkole
+weight: 2
+is_admin: null
+permissions: {  }

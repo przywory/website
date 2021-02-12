@@ -1,0 +1,14 @@
+uuid: 5e8013f5-d331-4935-8bd8-f258a38e9eab
+langcode: pl
+status: true
+dependencies:
+  config:
+    - user.role.przedszkole
+  module:
+    - user
+id: user_add_role_action.przedszkole
+label: 'Add the Przedszkole role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: przedszkole

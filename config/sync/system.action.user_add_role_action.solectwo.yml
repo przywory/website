@@ -1,0 +1,14 @@
+uuid: e9ca219d-bd92-401f-ae42-dadbbba97ddc
+langcode: pl
+status: true
+dependencies:
+  config:
+    - user.role.solectwo
+  module:
+    - user
+id: user_add_role_action.solectwo
+label: 'Add the Sołectwo role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: solectwo
