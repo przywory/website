@@ -20,6 +20,7 @@
         "drupal/layout_paragraphs_restriction": "^1.0@alpha",
         "drupal/paragraphs": "^1.12",
         "drupal/toolbar_menu": "^2.2",
+        "drupal/webp": "^1.0@beta",
         "drush/drush": "^10.3"
     },
     "conflict": {

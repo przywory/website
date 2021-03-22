@@ -41,6 +41,7 @@ module:
   toolbar_menu: 0
   update: 0
   user: 0
+  webp: 0
   views: 10
   paragraphs: 11
   minimal: 1000
