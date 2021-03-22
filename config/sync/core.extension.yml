@@ -18,6 +18,9 @@ module:
   gin_toolbar: 0
   image: 0
   language: 0
+  layout_discovery: 0
+  layout_paragraphs: 0
+  layout_paragraphs_restriction: 0
   link: 0
   media: 0
   media_library: 0

@@ -1,0 +1,32 @@
+uuid: 2c7500f0-bab3-43ec-9f59-f495bf45db95
+langcode: pl
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_modules
+    - paragraphs.paragraphs_type.layout_content_with_sidebar
+  module:
+    - entity_reference_revisions
+id: paragraph.layout_content_with_sidebar.field_modules
+field_name: field_modules
+entity_type: paragraph
+bundle: layout_content_with_sidebar
+label: Modules
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      content:
+        weight: 3
+        enabled: false
+      layout_content_with_sidebar:
+        weight: 4
+        enabled: false
+field_type: entity_reference_revisions

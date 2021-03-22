@@ -1,0 +1,10 @@
+uuid: ae31faad-5b9a-4847-a487-37bdc0a69bd5
+langcode: pl
+status: true
+dependencies: {  }
+id: content
+label: Treść
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

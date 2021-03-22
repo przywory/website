@@ -4,8 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_modules
     - node.type.page
   module:
+    - layout_paragraphs
     - path
     - text
 id: node.page.default
@@ -29,6 +31,15 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_modules:
+    type: layout_paragraphs
+    weight: 122
+    settings:
+      preview_view_mode: default
+      nesting_depth: 0
+      require_layouts: 1
+    third_party_settings: {  }
+    region: content
   langcode:
     type: language_select
     weight: 2

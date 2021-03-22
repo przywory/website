@@ -1,0 +1,23 @@
+uuid: 7bf8cb6a-ed91-4be4-bfcc-1dbc8927c11b
+langcode: pl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_modules
+    - node.type.page
+  module:
+    - entity_reference_revisions
+id: node.page.field_modules
+field_name: field_modules
+entity_type: node
+bundle: page
+label: Zawartość
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings: {  }
+field_type: entity_reference_revisions

@@ -1,0 +1,29 @@
+uuid: fd69b469-3b76-475e-a192-5f7e79aef3e7
+langcode: pl
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.layout_content_with_sidebar.field_modules
+    - paragraphs.paragraphs_type.layout_content_with_sidebar
+  module:
+    - paragraphs
+id: paragraph.layout_content_with_sidebar.default
+targetEntityType: paragraph
+bundle: layout_content_with_sidebar
+mode: default
+content:
+  field_modules:
+    type: entity_reference_paragraphs
+    weight: 0
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,16 @@
+uuid: 13707329-e535-47cf-a598-290ab5e19525
+langcode: pl
+status: true
+dependencies:
+  module:
+    - layout_paragraphs
+id: layout_content_with_sidebar
+label: 'Szablon: zawartość i pasek boczny'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins:
+  layout_paragraphs:
+    enabled: true
+    available_layouts:
+      layout_twocol: 'Two column'
