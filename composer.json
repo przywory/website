@@ -9,19 +9,19 @@
         }
     ],
     "require": {
-        "composer/installers": "^1.9",
+        "composer/installers": "^1.11",
         "drupal/admin_toolbar": "^3.0",
-        "drupal/core-composer-scaffold": "^9.1",
-        "drupal/core-recommended": "^9.1",
+        "drupal/core-composer-scaffold": "^9.2",
+        "drupal/core-recommended": "^9.2",
         "drupal/field_group": "^3.1",
         "drupal/gin": "^3.0@alpha",
         "drupal/gin_login": "^1.0@RC",
-        "drupal/layout_paragraphs": "^1.0@beta",
+        "drupal/layout_paragraphs": "^2.0@alpha",
         "drupal/layout_paragraphs_restriction": "^1.0@alpha",
         "drupal/paragraphs": "^1.12",
         "drupal/toolbar_menu": "^2.2",
         "drupal/webp": "^1.0@beta",
-        "drush/drush": "^10.3"
+        "drush/drush": "^10.5"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -35,6 +35,15 @@
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
+            },
+            "file-mapping": {
+                "[web-root]/.gitignore": false,
+                "[web-root]/.ht.router.php": false,
+                "[web-root]/example.gitignore": false,
+                "[web-root]/INSTALL.txt": false,
+                "[web-root]/README.md": false,
+                "[web-root]/README.txt": false,
+                "[web-root]/web.config": false
             }
         },
         "installer-paths": {

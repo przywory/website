@@ -8,10 +8,7 @@
 /web/libraries/
 
 # Ignore sensitive information
-/web/sites/*/settings.local.php
-/web/sites/*/settings.ddev.php
-/web/sites/activeSitesCache.php
-!/web/sites/template/settings.local.php
+/web/sites/*/settings.*.php
 
 # Ignore Drupal's file directory
 /web/sites/*/files/
@@ -24,5 +21,3 @@
 
 # Ignore .env files as they are personal
 /.env
-/.editorconfig
-/.gitattributes
