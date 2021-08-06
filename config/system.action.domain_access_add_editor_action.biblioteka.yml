@@ -1,0 +1,14 @@
+uuid: cfd9da14-4a10-4f9c-82a1-440cf677c83d
+langcode: pl
+status: true
+dependencies:
+  config:
+    - domain.record.biblioteka
+  module:
+    - domain_access
+id: domain_access_add_editor_action.biblioteka
+label: 'Add editors to the Biblioteka domain'
+type: user
+plugin: domain_access_add_editor_action
+configuration:
+  domain_id: biblioteka

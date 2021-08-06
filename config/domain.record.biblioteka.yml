@@ -2,7 +2,7 @@ uuid: dd1af9e6-93f8-49d7-aa5e-cb7df5db9865
 langcode: pl
 status: true
 dependencies: {  }
-id: biblioteka_przywory_eu
+id: biblioteka
 domain_id: 10100665
 hostname: biblioteka.przywory.eu
 name: Biblioteka

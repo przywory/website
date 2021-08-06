@@ -3,12 +3,12 @@ langcode: pl
 status: true
 dependencies:
   config:
-    - domain.record.przywory_eu
+    - domain.record.przywory
   module:
     - domain_access
-id: domain_access_remove_editor_action.przywory_eu
-label: 'Remove editors from the Sołectwo Przywory domain'
+id: domain_access_remove_editor_action.przywory
+label: 'Remove editors from the Przywory domain'
 type: user
 plugin: domain_access_remove_editor_action
 configuration:
-  domain_id: przywory_eu
+  domain_id: przywory

@@ -1,0 +1,14 @@
+uuid: 8eb2653a-7c3d-4bfa-8f09-4a831ade2a81
+langcode: pl
+status: true
+dependencies:
+  config:
+    - domain.record.biblioteka
+  module:
+    - domain_access
+id: domain_access_remove_action.biblioteka
+label: 'Remove selected content from the Biblioteka domain'
+type: node
+plugin: domain_access_remove_action
+configuration:
+  domain_id: biblioteka

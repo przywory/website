@@ -1,0 +1,14 @@
+uuid: 4b1beeaa-d860-4f5c-ae81-f71481b63e4b
+langcode: pl
+status: true
+dependencies:
+  config:
+    - domain.record.przedszkole
+  module:
+    - domain_access
+id: domain_access_remove_action.przedszkole
+label: 'Remove selected content from the Przedszkole domain'
+type: node
+plugin: domain_access_remove_action
+configuration:
+  domain_id: przedszkole

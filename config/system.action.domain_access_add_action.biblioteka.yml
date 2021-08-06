@@ -1,0 +1,14 @@
+uuid: 9e5db1fc-0110-4932-adb7-6dacdfef41b8
+langcode: pl
+status: true
+dependencies:
+  config:
+    - domain.record.biblioteka
+  module:
+    - domain_access
+id: domain_access_add_action.biblioteka
+label: 'Add selected content to the Biblioteka domain'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id: biblioteka

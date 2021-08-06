@@ -2,7 +2,7 @@ uuid: cb32f224-4cee-4c3f-924b-9552d3fecd1a
 langcode: pl
 status: true
 dependencies: {  }
-id: przedszkole_przywory_eu
+id: przedszkole
 domain_id: 715758
 hostname: przedszkole.przywory.eu
 name: Przedszkole
