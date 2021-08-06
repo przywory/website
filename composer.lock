@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cb2ffad712c12b3fbc006d885aeb8f7a",
+    "content-hash": "e5f0dda045c7f3682ed5039340a1cceb",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -972,6 +972,54 @@
             },
             "abandoned": "psr/container",
             "time": "2017-02-14T19:40:03+00:00"
+        },
+        {
+            "name": "cweagans/composer-patches",
+            "version": "1.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cweagans/composer-patches.git",
+                "reference": "9888dcc74993c030b75f3dd548bb5e20cdbd740c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/9888dcc74993c030b75f3dd548bb5e20cdbd740c",
+                "reference": "9888dcc74993c030b75f3dd548bb5e20cdbd740c",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "composer/composer": "~1.0 || ~2.0",
+                "phpunit/phpunit": "~4.6"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "cweagans\\Composer\\Patches"
+            },
+            "autoload": {
+                "psr-4": {
+                    "cweagans\\Composer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Cameron Eagans",
+                    "email": "me@cweagans.net"
+                }
+            ],
+            "description": "Provides a way to patch Composer packages.",
+            "support": {
+                "issues": "https://github.com/cweagans/composer-patches/issues",
+                "source": "https://github.com/cweagans/composer-patches/tree/1.7.1"
+            },
+            "time": "2021-06-08T15:12:46+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -3141,6 +3189,50 @@
             "homepage": "https://www.drupal.org/project/toolbar_menu",
             "support": {
                 "source": "https://git.drupalcode.org/project/toolbar_menu"
+            }
+        },
+        {
+            "name": "drupal/userswitch",
+            "version": "1.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/userswitch.git",
+                "reference": "8.x-1.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/userswitch-8.x-1.9.zip",
+                "reference": "8.x-1.9",
+                "shasum": "5beee28d19d5892a3c51fb68b275bf145a5f459b"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.9",
+                    "datestamp": "1588498833",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "manish34jain",
+                    "homepage": "https://www.drupal.org/user/2336646"
+                }
+            ],
+            "description": "Switch user account.",
+            "homepage": "https://www.drupal.org/project/userswitch",
+            "support": {
+                "source": "https://git.drupalcode.org/project/userswitch"
             }
         },
         {

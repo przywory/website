@@ -11,6 +11,7 @@
     "require": {
         "php": "^8.0",
         "composer/installers": "^1.11",
+        "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.0",
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-recommended": "^9.2",
@@ -24,6 +25,7 @@
         "drupal/layout_paragraphs_restriction": "^1.0@alpha",
         "drupal/paragraphs": "^1.12",
         "drupal/toolbar_menu": "^2.2",
+        "drupal/userswitch": "^1.9",
         "drupal/webp": "^1.0@beta",
         "drush/drush": "^10.5"
     },
@@ -90,6 +92,11 @@
             "web/themes/custom/{$name}": [
                 "type:drupal-custom-theme"
             ]
+        },
+        "patches": {
+            "drupal/userswitch": {
+                "https://www.drupal.org/project/userswitch/issues/3169065": "https://www.drupal.org/files/issues/2020-10-16/userswitch.patch"
+            }
         }
     }
 }

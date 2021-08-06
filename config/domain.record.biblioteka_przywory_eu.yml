@@ -5,7 +5,7 @@ dependencies: {  }
 id: biblioteka_przywory_eu
 domain_id: 10100665
 hostname: biblioteka.przywory.eu
-name: 'Biblioteka w Przyworach'
+name: Biblioteka
 scheme: https
 weight: 3
 is_default: false

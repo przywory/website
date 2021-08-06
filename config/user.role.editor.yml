@@ -1,0 +1,28 @@
+uuid: 1b493f8e-66c9-412e-962a-72b846f05e28
+langcode: pl
+status: true
+dependencies: {  }
+id: editor
+label: Redaktor
+weight: 5
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access toolbar'
+  - 'create domain content'
+  - 'create page content'
+  - 'create url aliases'
+  - 'delete any page content'
+  - 'delete domain content'
+  - 'delete own page content'
+  - 'delete page revisions'
+  - 'edit any page content'
+  - 'edit domain content'
+  - 'edit own page content'
+  - 'publish to any assigned domain'
+  - 'revert page revisions'
+  - 'view own unpublished content'
+  - 'view page revisions'
+  - 'view the administration theme'
+  - 'view unpublished domain content'

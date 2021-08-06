@@ -1,9 +1,0 @@
-uuid: 1dbeee39-8686-48d1-8808-28e9c25bbecb
-langcode: pl
-status: true
-dependencies: {  }
-id: solectwo
-label: Sołectwo
-weight: 4
-is_admin: null
-permissions: {  }

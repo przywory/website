@@ -13,7 +13,6 @@ module:
   domain_config: 0
   domain_config_ui: 0
   domain_content: 0
-  domain_role_access: 0
   domain_source: 0
   dynamic_page_cache: 0
   editor: 0
@@ -50,6 +49,8 @@ module:
   toolbar_menu: 0
   update: 0
   user: 0
+  userswitch: 0
+  views_ui: 0
   webp: 0
   views: 10
   paragraphs: 11

@@ -5,7 +5,7 @@ dependencies: {  }
 id: przywory_eu
 domain_id: 4591269
 hostname: przywory.eu
-name: 'Sołectwo Przywory'
+name: Przywory
 scheme: https
 weight: 1
 is_default: true
