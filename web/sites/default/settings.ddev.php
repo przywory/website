@@ -27,3 +27,4 @@ $settings['class_loader_auto_detect'] = FALSE;
 $config['domain.record.przywory']['hostname'] = 'przywory.loc';
 $config['domain.record.przedszkole']['hostname'] = 'przedszkole.przywory.loc';
 $config['domain.record.biblioteka']['hostname'] = 'biblioteka.przywory.loc';
+$config['domain.record.stowarzyszenie']['hostname'] = 'naszeprzywory.loc';

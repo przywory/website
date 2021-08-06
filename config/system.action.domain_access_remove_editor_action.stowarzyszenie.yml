@@ -1,0 +1,14 @@
+uuid: 697f26ec-bbd6-4bd9-9cae-d1293e9933bc
+langcode: pl
+status: true
+dependencies:
+  config:
+    - domain.record.stowarzyszenie
+  module:
+    - domain_access
+id: domain_access_remove_editor_action.stowarzyszenie
+label: 'Remove editors from the Stowarzyszenie domain'
+type: user
+plugin: domain_access_remove_editor_action
+configuration:
+  domain_id: stowarzyszenie

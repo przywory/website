@@ -1,0 +1,11 @@
+uuid: 380ba207-76ad-4096-919f-d95e56260748
+langcode: pl
+status: true
+dependencies: {  }
+id: stowarzyszenie
+domain_id: 8601937
+hostname: naszeprzywory.pl
+name: Stowarzyszenie
+scheme: https
+weight: 4
+is_default: false

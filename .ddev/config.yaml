@@ -9,7 +9,8 @@ xdebug_enabled: false
 project_tld: loc
 additional_hostnames:
   - "*.przywory"
-additional_fqdns: []
+additional_fqdns:
+  - naszeprzywory.loc
 mariadb_version: "10.3"
 mysql_version: ""
 provider: default

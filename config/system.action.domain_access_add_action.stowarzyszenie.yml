@@ -1,0 +1,14 @@
+uuid: e849cc53-223d-48e0-a3c0-100a4f3921db
+langcode: pl
+status: true
+dependencies:
+  config:
+    - domain.record.stowarzyszenie
+  module:
+    - domain_access
+id: domain_access_add_action.stowarzyszenie
+label: 'Add selected content to the Stowarzyszenie domain'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id: stowarzyszenie
