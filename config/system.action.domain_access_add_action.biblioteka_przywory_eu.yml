@@ -1,0 +1,14 @@
+uuid: 9e5db1fc-0110-4932-adb7-6dacdfef41b8
+langcode: pl
+status: true
+dependencies:
+  config:
+    - domain.record.biblioteka_przywory_eu
+  module:
+    - domain_access
+id: domain_access_add_action.biblioteka_przywory_eu
+label: 'Add selected content to the Biblioteka w Przyworach domain'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id: biblioteka_przywory_eu

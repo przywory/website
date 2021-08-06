@@ -1,0 +1,11 @@
+uuid: 0785176f-e689-4b6c-b064-cad0d4412f70
+langcode: pl
+status: true
+dependencies: {  }
+id: przywory_eu
+domain_id: 4591269
+hostname: przywory.eu
+name: 'Sołectwo Przywory'
+scheme: https
+weight: 1
+is_default: true

@@ -1,0 +1,14 @@
+uuid: ba076648-5bf7-4a4d-b3be-d9bb060dff37
+langcode: pl
+status: true
+dependencies:
+  config:
+    - domain.record.przedszkole_przywory_eu
+  module:
+    - domain_access
+id: domain_access_remove_editor_action.przedszkole_przywory_eu
+label: 'Remove editors from the Przedszkole w Przyworach domain'
+type: user
+plugin: domain_access_remove_editor_action
+configuration:
+  domain_id: przedszkole_przywory_eu

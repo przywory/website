@@ -1,0 +1,14 @@
+uuid: d23e67a3-0228-44a0-98af-e24ec1a27fcb
+langcode: pl
+status: true
+dependencies:
+  config:
+    - domain.record.przedszkole_przywory_eu
+  module:
+    - domain_access
+id: domain_access_add_action.przedszkole_przywory_eu
+label: 'Add selected content to the Przedszkole w Przyworach domain'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id: przedszkole_przywory_eu

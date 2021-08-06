@@ -1,0 +1,4 @@
+allow_non_ascii: false
+www_prefix: true
+login_paths: ''
+css_classes: ''

@@ -1,0 +1,14 @@
+uuid: 132a4c30-dfb9-4619-b208-89464d74932c
+langcode: pl
+status: true
+dependencies:
+  config:
+    - domain.record.przywory_eu
+  module:
+    - domain_access
+id: domain_access_remove_action.przywory_eu
+label: 'Remove selected content from the Sołectwo Przywory domain'
+type: node
+plugin: domain_access_remove_action
+configuration:
+  domain_id: przywory_eu

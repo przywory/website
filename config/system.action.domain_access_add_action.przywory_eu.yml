@@ -1,0 +1,14 @@
+uuid: e03f23d0-cad5-4282-93c9-9330730a353a
+langcode: pl
+status: true
+dependencies:
+  config:
+    - domain.record.przywory_eu
+  module:
+    - domain_access
+id: domain_access_add_action.przywory_eu
+label: 'Add selected content to the Sołectwo Przywory domain'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id: przywory_eu

@@ -1,0 +1,14 @@
+uuid: fd9e7278-b53b-4f46-b16d-cfe77c3c7142
+langcode: pl
+status: true
+dependencies:
+  config:
+    - domain.record.przywory_eu
+  module:
+    - domain_access
+id: domain_access_add_editor_action.przywory_eu
+label: 'Add editors to the Sołectwo Przywory domain'
+type: user
+plugin: domain_access_add_editor_action
+configuration:
+  domain_id: przywory_eu

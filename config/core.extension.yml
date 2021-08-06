@@ -4,10 +4,17 @@ module:
   block: 0
   breakpoint: 0
   ckeditor: 0
-  ckeditor5: 0
   datetime: 0
   dblog: 0
+  devel: 0
+  devel_entity_updates: 0
   domain: 0
+  domain_access: 0
+  domain_config: 0
+  domain_config_ui: 0
+  domain_content: 0
+  domain_role_access: 0
+  domain_source: 0
   dynamic_page_cache: 0
   editor: 0
   entity_reference_revisions: 0

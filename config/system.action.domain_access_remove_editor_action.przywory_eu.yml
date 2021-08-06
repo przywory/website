@@ -1,0 +1,14 @@
+uuid: 9fbc5ae5-0c90-406a-8bf9-68abcd21aaf2
+langcode: pl
+status: true
+dependencies:
+  config:
+    - domain.record.przywory_eu
+  module:
+    - domain_access
+id: domain_access_remove_editor_action.przywory_eu
+label: 'Remove editors from the Sołectwo Przywory domain'
+type: user
+plugin: domain_access_remove_editor_action
+configuration:
+  domain_id: przywory_eu

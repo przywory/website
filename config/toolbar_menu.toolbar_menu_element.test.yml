@@ -1,9 +1,0 @@
-uuid: 22007081-31bd-41ce-b2f7-24e14fae7120
-langcode: pl
-status: true
-dependencies: {  }
-id: test
-label: test
-weight: null
-menu: footer
-rewrite_label: false
