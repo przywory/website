@@ -16,7 +16,7 @@
         "drupal/core-recommended": "^9.2",
         "drupal/domain": "^1.0@beta",
         "drupal/field_group": "^3.1",
-        "drupal/gin": "^3.0@alpha",
+        "drupal/gin": "^3.x-dev@dev",
         "drupal/gin_login": "^1.0@RC",
         "drupal/layout_paragraphs": "^2.0@alpha",
         "drupal/layout_paragraphs_restriction": "^1.0@alpha",
